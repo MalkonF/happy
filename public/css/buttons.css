@@ -17,6 +17,8 @@
   justify-content: center;
 
   transition: background-color 0.2s;
+
+  text-decoration: none;
 }
 
 .primary-button:hover {
@@ -31,7 +33,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 .button-select button {
   height: 6.4rem;
   background: #f5f8fa;
