@@ -1,12 +1,10 @@
 const options = {
-
-    dragging: false,
-    touchZoom: false,
-    doubleClickZoom: false,
-    scrollWheelZoom: false,
-    zoomControl: false
-}
-
+  dragging: false,
+  touchZoom: false,
+  doubleClickZoom: false,
+  scrollWheelZoom: false,
+  zoomControl: false,
+};
 
 //create map
 
@@ -19,13 +17,11 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 //create icon
 
 const icon = L.icon({
-  iconUrl: "./public/images/map-marker.svg",
+  iconUrl: "/images/map-marker.svg",
   iconSize: [58, 68],
   iconAnchor: [29, 68],
   popupAnchor: [170, 2],
 });
-
-
 
 //add marker
 
@@ -33,8 +29,7 @@ L.marker([-16.6958288, -49.3743178], { icon }).addTo(map);
 
 /*Image gallery*/
 
-function selectImage(event){
-
+function selectImage(event) {
   const button = event.currentTarget;
 
   console.log(button.children);
@@ -42,9 +37,8 @@ function selectImage(event){
   const buttons = document.querySelectorAll(".images button");
   buttons.forEach(removeActiveClass);
 
-  function removeActiveClass(button){
+  function removeActiveClass(button) {
     button.classList.remove("active");
-
   }
 
   const image = button.children[0];
@@ -52,5 +46,5 @@ function selectImage(event){
 
   imageContainer.src = image.src;
 
-  button.classList.add('active');
+  button.classList.add("active");
 }
