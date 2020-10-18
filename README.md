@@ -1,9 +1,9 @@
-#Happy
+# Happy
 
 > Aplicação para facilitar a adoção de crianças.
 
-[![npm]
-[![mit]
+![npm]
+![mit]
 
 Permite que cadastre casas de acolhimento institucional para facilitar a localização e demais informações para quem procurar alegrar o dia de uma criança ou até mesmo adotá-la. 💜
 
@@ -18,19 +18,21 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [SQLite](https://www.sqlite.org/index.html)
 - [Handlebars](https://handlebarsjs.com/)
 
-## Meta
+## Onde me encontrar?
 
-Malkon Faria – [@RapazComum6](https://twitter.com/RapazComum6) – malkon.inf@gmail.com
+**Twitter** – [@RapazComum6](https://twitter.com/RapazComum6)
+**E-mail** - malkon.inf@gmail.com
+**Linkedin** - [Malkon Faria](https://www.linkedin.com/in/malkon-faria-1843b81a7/)
 
 [Github: MalkonF](https://github.com/MalkonF)
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE.md] para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE.md](https://github.com/MalkonF/happy/blob/master/LICENSE.md) para mais detalhes.
 
 ---
 
-Projeto feito por Malkon Faria durante a Next Level Week. Evento realizado pela [RocketSeat](https://rocketseat.com.br/)
+Projeto feito por **Malkon Faria** durante a **Next Level Week**. Evento realizado pela [RocketSeat](https://rocketseat.com.br/)
 :star: :octocat: :star:
 
 <!-- Markdown link & img dfn's -->
