@@ -14,9 +14,30 @@ Permite que cadastre casas de acolhimento institucional para facilitar a localiz
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
+- [Npm](https://www.npmjs.com/)
 - [Express](https://expressjs.com/pt-br/)
 - [SQLite](https://www.sqlite.org/index.html)
 - [Handlebars](https://handlebarsjs.com/)
+
+## Como rodar ?
+
+```
+git clone https://github.com/MalkonF/happy.git
+```
+
+Entre na pasta happy e faça:
+
+```
+npm install
+```
+
+Depois:
+
+```
+npm start
+```
+
+Acesse a aplicação pelo endereço: http://localhost:5500/
 
 ## Onde me encontrar?
 
