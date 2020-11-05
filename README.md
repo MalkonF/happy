@@ -21,6 +21,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Como rodar ?
 
+Baixe o [nodejs](https://nodejs.org/pt-br/download/) e instale de acordo com seu sistema operacional.
+
 ```
 git clone https://github.com/MalkonF/happy.git
 ```
